@@ -7,10 +7,15 @@ console.clear();
   - the rating
   - the number of sales
 */
+const bookTitle = "Need a Break?";
+const author = "Anushka R";
+let rating = 4.5;
+let sales = 1000;
 
-// --v-- write your code here --v--
-
-// --^-- write your code here --^--
+console.log("Title:", bookTitle);
+console.log("Author:", author);
+console.log("Rating:", rating);
+console.log("Sales:", sales);
 
 /*
 2: Log all variables to the console, for example:
@@ -23,10 +28,12 @@ Sales: 120
 Increase the number of sales and change the rating of the book afterwards.
 Then log all variables to the console again.
 */
-
-// --v-- write your code here --v--
-
-// --^-- write your code here --^--
+sales = 5000;
+rating = 5;
+console.log("Title:", bookTitle);
+console.log("Author:", author);
+console.log("Rating:", rating);
+console.log("Sales:", sales);
 
 /*
 3: This code is quite repetitive and hard to read.
@@ -36,6 +43,16 @@ Then log all variables to the console again.
  - Now increase the number of sales 2 more times and log the data after each increase.
 */
 
-// --v-- write your code here --v--
+function logBookData() {
+  console.log("Title:", bookTitle);
+  console.log("Author:", author);
+  console.log("Rating:", rating);
+  console.log("Sales:", sales);
+}
+logBookData();
 
-// --^-- write your code here --^--
+sales = 7000;
+logBookData();
+
+sales = 10000;
+logBookData();
