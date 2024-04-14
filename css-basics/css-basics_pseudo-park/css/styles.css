@@ -22,7 +22,6 @@
 
 .animal {
   padding: 16px;
-  font-size: 32px;
 
   /*
     The animals are very small.
@@ -30,11 +29,11 @@
     Set the font size to 32px.
   */
 }
-.giraffe {
-  text-align: center;
-}
 .dino {
   text-align: right;
+}
+.giraffe {
+  text-align: center;
 }
 .crocodile:hover {
   background-color: lightblue;
