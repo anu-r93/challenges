@@ -29,6 +29,21 @@
     Set the font size to 32px.
   */
 }
+.dino {
+  text-align: right;
+}
+.giraffe {
+  text-align: center;
+}
+.crocodile:hover {
+  background-color: lightblue;
+}
+.giraffe:hover {
+  background-color: lightgreen;
+}
+.dino:hover {
+  background-color: lightsalmon;
+}
 
 /*
   The giraffe is afraid of the crocodile and the dino.
