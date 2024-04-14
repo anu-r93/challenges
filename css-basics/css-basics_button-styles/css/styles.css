@@ -30,29 +30,24 @@ button {
 /* Add your CSS styles below this line. Feel free to replace the comments with your code. Make sure not to put your code into the comments, because then nothing will happen. */
 
 .button1 {
-  border-style: double;
   border-radius: 10px;
-  /*Style me! Change my border, set a border radius or what you want to try out. :) */
+  border-style: double;
+  border-color: blue;
 }
 
 .button2 {
   color: blue;
-  background-color: rgb(201, 95, 171);
-  /*Style me! Change my color, or my background-color. Or both! You can test out different color modes here - like HEX, RGB, ... */
+  background-color: blueviolet;
 }
 
 .button3 {
-  color: blueviolet;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  font-style: oblique;
-  /*Style me! You can test out changing the font, or font size, ...*/
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .button4 {
-  text-shadow: 2px 2px;
-  box-shadow: 2px 2px;
-  /*Style me! Can you add a shadow to this button? Maybe play around with the shadow properties, as well? You can even color the shadow, make it bigger or smaller, ... */
+  box-shadow: 5px 5px;
+  text-shadow: 3px 3px;
 }
 
 /* Feel free to play around with other properties, as well. */
