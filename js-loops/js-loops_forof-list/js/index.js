@@ -16,6 +16,13 @@ const programmingLanguages = [
   "PHP",
   "Ruby",
 ];
+for (const programs of programmingLanguages) {
+  console.log(programs);
+
+  const list = document.createElement("li");
+  list.textContent = programs;
+  ol.append(list);
+}
 
 // --v-- write/change code here --v--
 
