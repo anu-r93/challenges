@@ -7,5 +7,16 @@ function handleUserLogin(onSuccess, onError, userName) {
     onError(`Unknown user "${userName}"`);
   }
 }
+function showWelcomeMessage(userName, userRole) {
+  console.log(`Welcome ${userName}! You are logged in now as ${userRole}.`);
+}
+
+function showErrorMessage(errorMessage) {
+  console.log(`Login error: ${errorMessage}`);
+}
+
+handleUserLogin(showWelcomeMessage, showErrorMessage, "Jane Doe");
+
+handleUserLogin(showWelcomeMessage, showErrorMessage, "Johe Doe");
 
 // The exercise starts here!
