@@ -7,13 +7,21 @@
 }
 
 .card--green {
-  background-color: lightgreen;
+  background-color: rgb(36, 172, 36);
 }
 
 .card--red {
-  background-color: lightcoral;
+  background-color: rgb(228, 20, 20);
 }
 
 .card--yellow {
-  background-color: lightyellow;
+  background-color: rgb(246, 246, 74);
+}
+
+.card--peach {
+  background-color: rgb(252, 176, 110);
+}
+
+.card--pink {
+  background-color: rgb(190, 30, 57);
 }
